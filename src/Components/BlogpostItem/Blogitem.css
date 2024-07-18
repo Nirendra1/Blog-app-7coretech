@@ -1,0 +1,10 @@
+.post-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .post-item:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }

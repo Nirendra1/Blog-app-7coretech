@@ -1,0 +1,10 @@
+.post-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+  }
