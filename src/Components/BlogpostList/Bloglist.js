@@ -3,7 +3,7 @@ import axios from 'axios';
 import Blogitem from '../BlogpostItem/Blogitem';
 import './Bloglist.css';
 
-import { render, screen, fireEvent } from '@testing-library/react';
+// import { render, screen, fireEvent } from '@testing-library/react';
 
 const Bloglist = () => {
   const [posts, setPosts] = useState([]);
@@ -29,7 +29,7 @@ const Bloglist = () => {
     };
 
     fetchPosts();
-  }, [currentPage]);
+  }, [currentPage,apiKey]);
 
   return (
     <div className="container mt-5">

@@ -24,7 +24,7 @@ const Blogdetail = () => {
     };
 
     fetchPost();
-  }, [id, post]);
+  }, [id, post,apiKey]);
   
 
   if (!post) {
